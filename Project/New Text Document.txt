@@ -1,0 +1,9 @@
+We decided to predict the maintenance flag using forward selection using Tweediep.
+So the target variable is binary variable maintenance flag. For the offset variable, we decided to use trip distance because it seemed to be an appropriate option for how a truck has been in use for. we used a log link function to train the model. We began by entering a few predictors we thought would be interesting and suitable. we ended up using these 9 predictor variables as interval variables ... because they seemed the most disparate and apt for this model.
+In the next slide, let's look at the peformance of this model.
+After forward selection using the tweedie p and dispersion parameters, we found that as the trip distance increased, the the maintenance flag seemed to turn on and as the trip distance decreased, the maintenance flag was off and all the predictor variables were used in the final model. From the graph you can see the darker blue points are more towards to the 0 maintenance flag and fewer darker blue points are concentrated on the 1 maintenance flag.
+we used a threshold of 0.4, after trying a set values from 0.2 to 0.6 to indicate of the predicted maintenance flag would be on or off.
+From the confusion matrix to the right, we can see how this model performed. Althought the accuracy score is 76%, the precision rate is only about 6 percent. Of the total relevant results the model has correctly classified, it is good at picking the proper maintenance flag 44% of the time.
+This model may not be the best for this dataset because of a lack of a proper offset variable. In the future, I would like to try to find data regarding the length of time a car has been in use to try as the offset variable and maybe even try acceleration as a possible target variable.
+
+Next, let's look at how the quantile regression fares for this dataset.

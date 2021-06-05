@@ -1,0 +1,3 @@
+,parameters,freeParam,log liklihood,deviance,degree of freedom,Chi square significance
+0,Intercept+URBANICITY+CAR_TYPE+MSTATUS,8,-5428.446262775502,-,-,-
+1,REVOKED,9,-5349.9295980051165,157.03332954077086,1,5.0335E-36

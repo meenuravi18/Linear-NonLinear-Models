@@ -1,0 +1,24 @@
+                                                                                                                         count             mean              var
+                                                                                                              Maintenance_flag Maintenance_flag Maintenance_flag
+Engine_Load Coolant_Temp Intake_Pressure Accel     Litres_Per_km Throttle_Pos Voltage Ambient Engine_Oil_Temp                                                   
+0.00000     79.0         107.0           20.392157 0.000000      80.0         14.20   7.0     78.0                           1              0.0              NaN
+                         108.0           14.901961 0.000000      80.0         14.24   7.0     78.0                           2              0.0              0.0
+                         109.0           14.901961 0.000000      80.0         14.20   7.0     79.0                           2              0.0              0.0
+                                                                              14.24   7.0     78.0                           1              0.0              NaN
+                                                                                              79.0                           4              0.0              0.0
+...                                                                                                                        ...              ...              ...
+99.60784    92.0         138.0           14.901961 6.804054      80.0         14.26   9.0     85.0                           1              0.0              NaN
+                         143.0           37.647060 7.005506      80.0         14.06   7.0     89.0                           1              1.0              NaN
+                         153.0           41.176470 7.826669      80.0         14.16   7.0     89.0                           1              1.0              NaN
+                         160.0           41.960785 8.239100      80.0         14.16   7.0     89.0                           1              0.0              NaN
+                         173.0           45.882355 14.890614     80.0         14.16   8.0     89.0                           1              1.0              NaN
+
+[7916 rows x 3 columns]
+tweedieP [0.45324494]
+scale phi 0.6518482331144867
+Adjusted Predicted Maintenance_flag     0    1
+observed Maintenance_flag                     
+0.0                                  5825  455
+1.0                                  1507  360
+0.2684563758389262
+0.5601852404654765
